@@ -1,5 +1,5 @@
-import jmespath from 'jmespath'
-import core from '@actions/core'
+import * as jmespath from 'jmespath'
+import * as core from '@actions/core'
 
 
 try {
