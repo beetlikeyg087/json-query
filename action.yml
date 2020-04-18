@@ -1,0 +1,18 @@
+name: 'json query'
+description: 'The action to filter JSON based on jmespath'
+inputs:
+  json: 
+    description: 'json input'
+    required: true
+  query:
+    description: 'jmespath query expression'
+    required: true  
+outputs:
+  output:
+    description: 'Output value'
+branding:
+  icon: 'download'  
+  color: 'gray-dark'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
